@@ -1,6 +1,6 @@
 import tabpy_client
 from tabpy.tabpy_tools.client import Client
-client = tabpy_client.Client('http://localhost:9004/')
+client = tabpy_client.Client('http://hbld-dmsapp01.allegistest.com:9004/')
 
 def fraud_predictor5( _arg1, _arg2,_arg3):
     import pandas as pd
